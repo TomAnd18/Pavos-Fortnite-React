@@ -1,0 +1,95 @@
+.container-tienda {
+    width: 100%;
+    background-image: url('../../images/fortnite-tienda.jpg');
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+
+.container-tittles-cards {
+    width: 80%;
+}
+
+.tittles-tienda {
+    padding-top: 1.5rem;
+}
+
+.tittles-tienda em  {
+    font-size: 28px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.pavos-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+}
+
+.cards-store-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+}
+
+.pase-batalla-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+}
+
+.club-container {
+    display: flex;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 3rem;
+}
+
+.club-container img {
+    width: 100%;
+}
+
+.packs-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* .tittles-tienda h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-family: fantasy;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+} */
+
+
+
+@media screen and (max-width: 991px) {
+    .container-tienda {
+        background-attachment: scroll;
+        background-size: cover;
+    }
+
+    .container-tittles-cards {
+        width: 90%;
+    }
+
+    .tittles-tienda em  {
+        font-size: 20px;
+    }
+}

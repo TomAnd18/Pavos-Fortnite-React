@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Quicksand:wght@500&display=swap');
+
+.card {
+    /* height: 25rem; */
+    background: #292928;
+    margin: 1rem;
+    cursor: pointer;
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: 0.2s all ease-in-out;
+}
+
+.card:hover img {
+    transform: scale(1.1) translateY(7px);
+    transition: 0.2s all ease-in-out;
+}
+
+.card:hover {
+    background: #fff;
+    transition: 0.2s all ease-in-out;
+}
+
+.card:hover h5,
+.card:hover h6 {
+  color: #000;
+  transition: 0.2s all ease-in-out;
+}
+
+.card:hover .card-price {
+    /* background: cornflowerblue; */
+    background: #f0ff26;
+    color: #000;
+    transition: 0.2s all ease-in-out;
+}
+
+.type-one {
+    width: 16rem;
+}
+
+.type-two {
+    width: 32rem;
+}
+
+.card-head {
+    width: 100%;
+    height: 18rem;
+    overflow: hidden;
+    background-color: aliceblue;
+}
+
+.card-head img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.2s all ease-in-out;
+}
+
+.card-body {
+    width: 100%;
+    /* height: 7rem; */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border-top: 5px solid #0ff9f4; */
+}
+
+.epic {
+    border-top: 7px solid #d336e3;
+}
+
+.legendary {
+    border-top: 7px solid #f8f406;
+}
+
+.raro {
+    border-top: 7px solid #0677f8;
+}
+
+.pococomun {
+    border-top: 7px solid #06f87f;
+}
+
+.comun {
+    border-top: 7px solid #4d4b4b;
+}
+
+.card-body h5, h6 {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.card-body h5 {
+    font-size: 20px;
+    margin-top: 1px;
+    margin-bottom: 0;
+}
+
+.card-body h6 {
+    color: #d7d6d6;
+    font-size: 11px;
+    margin-bottom: 4px;
+}
+
+.card-price {
+    width: 100%;
+    padding: 2px 10px;
+    text-align: end;
+    background: #000;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.2s all ease-in-out;
+}
+
+
+@media screen and (max-width: 991px) {
+    .card {
+        margin: 0.5rem;
+    }
+
+    .type-one {
+        width: 9rem;
+    }
+    
+    .type-two {
+        width: 19rem;
+    }
+
+    .card-head {
+        width: 100%;
+        height: 10rem;
+        overflow: hidden;
+        background-color: aliceblue;
+    }
+
+    .card-body h5 {
+        font-size: 15px;
+        margin-top: 1px;
+        margin-bottom: 0;
+    }
+    
+    .card-body h6 {
+        color: #d7d6d6;
+        font-size: 8px;
+        margin-bottom: 4px;
+    }
+
+    .card-price {
+        font-size: 11px;
+    }
+}
