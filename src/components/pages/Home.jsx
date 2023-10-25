@@ -1,9 +1,9 @@
 import React from 'react';
-import NavBar from '../layout/NavBar';
-import '../../styles/components/home.css';
-import backgroundHome from '../../images/Captura de pantalla (306).png';
-import backgroundHomeMars from '../../images/fortnite-outfit-marshmello.jpg';
+import '../../styles/pages/home.css';
+import fortniteLogo from '../../images/fortnite-logo.png';
 import Tienda from './Tienda';
+import KeyboardDoubleArrowLeftIcon from '@mui/icons-material/KeyboardDoubleArrowLeft';
+import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
 
 export default function Home() {
 
@@ -11,11 +11,27 @@ export default function Home() {
 
   return (
     <>
-      <NavBar/>
       <div className='container-home'>
         <div className='cards-home-container'>
-          {/* <div className='tittle-card-home'> <a href='#pavos'>comprar</a> </div> */}
-          <div className='card-up-home'>
+          <div className='info-page-home'>
+            <p>
+              comprá pavos, skin, gestos, packs...
+            </p>
+            <p>
+              y mas de la tienda de 
+            </p>
+            <div className='container-logo-home'>
+              <img className='logo-home' alt='logo' src={fortniteLogo}></img>
+            </div>
+          </div>
+          <div className='tittle-card-home'> 
+            <a href='#pavos' id='movable-button'>
+              <KeyboardDoubleArrowRightIcon id='ico-right'/>
+              comprar
+              <KeyboardDoubleArrowLeftIcon id='ico-left'/>
+            </a> 
+          </div>
+          {/* <div className='card-up-home'>
             <div className='card-home'>
               <img alt='fortnite' src={backgroundHomeMars}></img>
             </div>
@@ -30,7 +46,7 @@ export default function Home() {
             <div className='card-home'>
               <img alt='fortnite' src={backgroundHomeMars}></img>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <Tienda/>

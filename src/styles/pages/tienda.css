@@ -42,10 +42,10 @@
 
 .pase-batalla-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
     margin-bottom: 3rem;
-    flex-wrap: wrap;
+    padding-left: 3.5rem;
 }
 
 .club-container {
@@ -54,17 +54,22 @@
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 3rem;
+    margin-top: 1rem;
 }
 
 .club-container img {
-    width: 100%;
+    width: 70%;
+    margin: auto;
+    border-radius: 8px;
 }
 
 .packs-container {
     display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 3rem;
 }
 
 /* .tittles-tienda h4 {
@@ -82,7 +87,7 @@
 @media screen and (max-width: 991px) {
     .container-tienda {
         background-attachment: scroll;
-        background-size: cover;
+        background-size: contain;
     }
 
     .container-tittles-cards {
@@ -91,5 +96,14 @@
 
     .tittles-tienda em  {
         font-size: 20px;
+    }
+
+    .pase-batalla-container {
+        padding: 0%;
+        justify-content: center;
+    }
+
+    .club-container {
+        justify-content: center;
     }
 }

@@ -47,7 +47,7 @@ export default function HideAppBar(props) {
             <div className='container-menu'>
               <ul className='menu-nav'>
                 <li> <Link to={'/'}> Inicio </Link> </li>
-                <li> <Link to={'/'}> Ayuda </Link> </li>
+                <li> <Link to={'/ayuda'}> Ayuda </Link> </li>
               </ul>
             </div>
           </Toolbar>
