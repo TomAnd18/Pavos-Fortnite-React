@@ -10,7 +10,7 @@ const data = [
                 "image-url": "https://firebasestorage.googleapis.com/v0/b/react-img-games.appspot.com/o/fortnite-app%2F1000VBucks.png?alt=media&token=1bbd3d71-43f5-441a-a460-e9545feae1a3&_gl=1*1c9t8lb*_ga*MTM5NDM3Mjk4OC4xNjk3NzU3MTY3*_ga_CW55HF8NVT*MTY5Nzc1NzE2Ni4xLjEuMTY5Nzc1NzQzNS4xLjAuMA..",
                 "name": "1 000 pavos",
                 "type": 1,
-                "price": 1500,
+                "price": 2500,
                 "description": "Compra 1000 paVos de Fortnite, la moneda del juego que puede utilizarse tanto en el modo Battle Royale como en el modo Creativo. Puedes comprar nuevos objetos de personalización, ¡como trajes, alas delta, picos, gestos y envoltorios o el pase de batalla de la última temporada! Puede que las alas delta y las estelas no se puedan usar en el modo Salvar el mundo."
             },
             {
@@ -18,7 +18,7 @@ const data = [
                 "image-url": "https://firebasestorage.googleapis.com/v0/b/react-img-games.appspot.com/o/fortnite-app%2F2800VBucks.png?alt=media&token=e85a5826-49d0-4a84-a345-0effcb54a147&_gl=1*ia2bku*_ga*MTM5NDM3Mjk4OC4xNjk3NzU3MTY3*_ga_CW55HF8NVT*MTY5Nzc1NzE2Ni4xLjEuMTY5Nzc1NzQ1Ny4zOS4wLjA.",
                 "name": "2 800 pavos",
                 "type": 1,
-                "price": 2500,
+                "price": 5500,
                 "description": "Compra 2800 paVos de Fortnite, la moneda del juego que puede utilizarse tanto en el modo Battle Royale como en el modo Creativo. Puedes comprar nuevos objetos de personalización, ¡como trajes, alas delta, picos, gestos y envoltorios o el pase de batalla de la última temporada! Puede que las alas delta y las estelas no se puedan usar en el modo Salvar el mundo."
             },
             {
@@ -26,7 +26,7 @@ const data = [
                 "image-url": "https://firebasestorage.googleapis.com/v0/b/react-img-games.appspot.com/o/fortnite-app%2F5000VBucks.png?alt=media&token=82804671-1e70-497e-be69-195533b4e0ee&_gl=1*1vg8bvw*_ga*MTM5NDM3Mjk4OC4xNjk3NzU3MTY3*_ga_CW55HF8NVT*MTY5Nzc1NzE2Ni4xLjEuMTY5Nzc1NzQ2OC4yOC4wLjA.",
                 "name": "5 000 pavos",
                 "type": 1,
-                "price": 3000,
+                "price": 8500,
                 "description": "Compra 5000 paVos de Fortnite, la moneda del juego que puede utilizarse tanto en el modo Battle Royale como en el modo Creativo. Puedes comprar nuevos objetos de personalización, ¡como trajes, alas delta, picos, gestos y envoltorios o el pase de batalla de la última temporada! Puede que las alas delta y las estelas no se puedan usar en el modo Salvar el mundo."
             },
             {
@@ -34,7 +34,7 @@ const data = [
                 "image-url": "https://firebasestorage.googleapis.com/v0/b/react-img-games.appspot.com/o/fortnite-app%2F13500VBucks.png?alt=media&token=f822ab54-c4ee-4180-bfaa-d232a4411e30&_gl=1*128obty*_ga*MTM5NDM3Mjk4OC4xNjk3NzU3MTY3*_ga_CW55HF8NVT*MTY5Nzc1NzE2Ni4xLjEuMTY5Nzc1NzQ4Ni4xMC4wLjA.",
                 "name": "13 500 pavos",
                 "type": 1,
-                "price": 5000,
+                "price": 16000,
                 "description": "Compra 13 500 paVos de Fortnite, la moneda del juego que puede utilizarse tanto en el modo Battle Royale como en el modo Creativo. Puedes comprar nuevos objetos de personalización, ¡como trajes, alas delta, picos, gestos y envoltorios o el pase de batalla de la última temporada! Puede que las alas delta y las estelas no se puedan usar en el modo Salvar el mundo."
             }
         ]

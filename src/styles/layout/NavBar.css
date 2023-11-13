@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
+.nav-tittle-option-list {
+    justify-content: space-around;
+}
+
 .container-menu ul {
     list-style: none;
     display: flex;

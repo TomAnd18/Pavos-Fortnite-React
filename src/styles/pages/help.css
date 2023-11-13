@@ -3,7 +3,9 @@
     display: flex;
     justify-content: center;
     padding-top: 6rem;
-    background-image: linear-gradient(180deg,#fff 0,#caf5f559  100%)
+    background-image: linear-gradient(180deg,#fff 0,#caf5f559  100%);
+    /* background-image: url('https://cdn2.unrealengine.com/Epic+Games+Node%2Ffn-1920x1080-05e434e24b3170bc6cc6003c102270ee4cde3a75.jpg?resize=1&w=1920'); */
+    background-attachment: fixed;
 }
 
 .help-container {

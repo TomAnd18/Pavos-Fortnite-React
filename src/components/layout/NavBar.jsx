@@ -40,7 +40,7 @@ export default function HideAppBar(props) {
       <CssBaseline />
       <HideOnScroll {...props}>
         <AppBar style={{background: '#0093f0eb'}}>
-          <Toolbar>
+          <Toolbar className='nav-tittle-option-list'>
             <Typography style={{fontWeight: 'bold', textTransform: 'uppercase'}} variant="h5" component="div">
               Pavitos
             </Typography>
