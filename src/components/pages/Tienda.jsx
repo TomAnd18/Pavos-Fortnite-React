@@ -51,8 +51,12 @@ export default function Tienda() {
                 ))
               }
             </div>
-            <div>
-              
+            <div className='consultar-container-tienda'>
+              <a
+                  href={`https://wa.me/+542216748479/?text=Hola!%20Quiero%20comprar%20un%20pack%20de%20su%20pagina%20Pavitos`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+              > Consultar otros packs </a>
             </div>
         </div>
     </>
