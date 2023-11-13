@@ -12,16 +12,22 @@ export default function CardStore({ id, type, rareza, name, price, img }) {
 
     return (
         <>
-            <Link to={`/detalles/pack-${id}`} className={ type === 1 ? 'card type-one' : 'card type-two' }>
+            <Link to={ price === 0 ? '#' : `/detalles/pack-${id}` } className={ type === 1 ? 'card type-one' : 'card type-two' }>
                 <div className='card-head'>
                     <img alt='imagen' src={img}></img>
                 </div>
                 <div className={`card-body `+ rareza}>
                     <h5>{ name }</h5>
                     {/* <h6>pico</h6> */}
-                    <div className='card-price'>
-                        <span>ARS {formattedPrice}</span>
-                    </div>
+                    {
+                        price === 0 ? 
+                            ''
+                        :
+                            <div className='card-price'>
+                                <span>ARS {formattedPrice}</span>
+                            </div>
+                    }
+                    
                 </div>
             </Link>
         </>

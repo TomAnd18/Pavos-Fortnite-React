@@ -50,63 +50,10 @@ export default function Tienda() {
                   </>
                 ))
               }
-
-              {/* <div id='pavos' className='tittles-tienda'>
-                  <em>pavos</em>
-              </div>
-              <div className='pavos-container'>
-                <CardStore type={1} rareza={'legendary'} img={pavos1000}/>
-                <CardStore type={1} rareza={'legendary'} img={pavos2800}/>
-                <CardStore type={1} rareza={'legendary'} img={pavos5000}/>
-                <CardStore type={1} rareza={'legendary'} img={pavos13500}/>
-              </div>
-              <div className='tittles-tienda'>
-                  <em>destacado</em>
-              </div>
-              <div className='cards-store-container'>
-                <CardStore type={1} rareza={'raro'} img={img1}/>
-                <CardStore type={2} rareza={'raro'} img={img2}/>
-                <CardStore type={1} rareza={'raro'} img={img1}/>
-                <CardStore type={1} rareza={'raro'} img={img1}/>
-              </div>
-              <div className='tittles-tienda'>
-                  <em>pase de batalla</em>
-              </div>
-              <div className='pase-batalla-container'>
-                <CardStore type={2} rareza={'epic'} img={paseOne}/>
-              </div>
-              <div className='tittles-tienda'>
-                  <em>club de fortnite</em>
-              </div>
-              <div className='club-container'>
-                <img alt='club' src={imgClub}></img>
-              </div>
-              <div className='tittles-tienda'>
-                  <em>packs especiales</em>
-              </div>
-              <div className='packs-container'>
-                <CardStore type={1} rareza={'pococomun'} img={packAcademiaSaint}/>
-                <CardStore type={1} rareza={'pococomun'} img={packDeriva}/>
-                <CardStore type={2} rareza={'pococomun'} img={packEscuadronCalavera}/>
-                <CardStore type={2} rareza={'pococomun'} img={packJuicioFinal}/>
-                <CardStore type={1} rareza={'pococomun'} img={packDiaJuicio}/>
-                <CardStore type={1} rareza={'pococomun'} img={packCamaradasCrypta}/>
-                <CardStore type={2} rareza={'pococomun'} img={packLeyendasAnime}/>
-                <CardStore type={1} rareza={'pococomun'} img={packClubEncadenadas}/>
-                <CardStore type={1} rareza={'pococomun'} img={packRepartidorRobotico}/>
-                <CardStore type={2} rareza={'pococomun'} img={packExtinction}/>
-              </div> */}
-
-              {/* {[...new Array(92)]
-                  .map(
-                  () => `Cras mattis consectetur purus sit amet fermentum.
-                      Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                      Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-                      Praesent commodo cursus magna, vel scelerisque nisl consectetur et.`,
-                  )
-                  .join('\n')} */}
             </div>
-
+            <div>
+              
+            </div>
         </div>
     </>
   )

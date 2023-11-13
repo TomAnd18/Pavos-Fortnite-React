@@ -7,12 +7,13 @@ export default function Help() {
         <div className='help-container'>
             <span>¿Cómo comprar?</span>
             <p>
-                Bienvenido a nuestra tienda de Fortnite. Para comprar, seguí estos pasos:
+                Bienvenida/o a Pavitos, nuestra tienda de Fortnite. Para comprar, seguí estos pasos:
                 <ol>
                     <li>Hacé clic en el botón "Comprar".</li>
-                    <li>Te llevará a WhatsApp, donde podrás enviarnos un mensaje con tus detalles y preguntas.</li>
+                    <li>Te llevará a WhatsApp, donde podrás enviarnos un mensaje con tus detalles y preguntas acerca de la compra.</li>
                     <li>Responderemos rápidamente y te proporcionaremos los detalles de pago por transferencia.</li>
-                    <li>Cuando hayas realizado el pago, envíanos el comprobante de pago por WhatsApp junto con tu Usuario y Contraseña de Fortnite.</li>
+                    <li>Cuando hayas realizado el pago, envíanos el comprobante de pago.</li>
+                    <li>Dependiendo el tipo de objeto, te solicitaremos tu ID de Fortnite.</li>
                     <li>Procesaremos tu compra y te proporcionaremos los objetos que compraste a tu cuenta de Fortnite.</li>
                 </ol>
             </p>
@@ -41,10 +42,10 @@ export default function Help() {
                     <li>Los objetos de la tienda de Fortnite no deben haberse entregado en tu cuenta.</li>
                     <li>Debes proporcionar la información de la compra, incluyendo el número de orden y el comprobante de pago.</li>
                 </ul>
-                Para solicitar una devolución, sigue estos pasos:
+                Para solicitar una devolución, seguí estos pasos:
                 <ol>
                     <li>Contacta a nuestro equipo de soporte a través de WhatsApp, proporcionando la información de tu compra y el motivo de la devolución.</li>
-                    <li>Revisaremos tu solicitud y, si cumples con las condiciones de devolución, te proporcionaremos las instrucciones para proceder.</li>
+                    <li>Revisaremos tu solicitud y, si cumplís con las condiciones de devolución, te proporcionaremos las instrucciones para proceder.</li>
                     <li>Una vez que hayamos recibido y verificado la información de tu solicitud, procesaremos la devolución de tu pago.</li>
                     <li>Recibirás una confirmación de devolución por parte de nuestro equipo.</li>
                 </ol>

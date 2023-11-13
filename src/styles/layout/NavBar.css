@@ -71,4 +71,8 @@ html {
     .menu-nav li:nth-child(2) {
         transform: skew(2deg, 0);
     }
+
+    .nav-tittle-option-list {
+        justify-content: space-between;
+    }
 }

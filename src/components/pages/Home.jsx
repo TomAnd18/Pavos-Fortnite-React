@@ -31,22 +31,6 @@ export default function Home() {
               <KeyboardDoubleArrowLeftIcon id='ico-left'/>
             </a> 
           </div>
-          {/* <div className='card-up-home'>
-            <div className='card-home'>
-              <img alt='fortnite' src={backgroundHomeMars}></img>
-            </div>
-          </div>
-          <div className='card-up-home center-card'>
-            <div className='card-home'>
-              <img alt='fortnite' src={backgroundHome}></img>
-              <div className='tittle-card-home'> <a href='#pavos'>comprar</a> </div>
-            </div>
-          </div>
-          <div className='card-up-home'>
-            <div className='card-home'>
-              <img alt='fortnite' src={backgroundHomeMars}></img>
-            </div>
-          </div> */}
         </div>
       </div>
       <Tienda/>

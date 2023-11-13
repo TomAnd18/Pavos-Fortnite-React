@@ -29,9 +29,8 @@
 }
 
 .card:hover .card-price {
-    /* background: cornflowerblue; */
-    background: #4de0d4;
-    color: #000000ce;
+    background: rgb(237, 240, 35);
+    color: #000;
     transition: 0.2s all ease-in-out;
 }
 
